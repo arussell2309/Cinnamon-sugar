@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Cinnamon Sugar - Order Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="order-styles.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <input type="text" id="name" placeholder="Full Name">
+        <div id="nameError" class="error"></div>
+
+        <input type="email" id="email" placeholder="Email Address">
+        <div id="emailError" class="error"></div>
+
+        <select id="product" aria-label="Select a bakery product">
+            <option value="">Select Product</option>
+             <option>Muffins</option>
+             <option>Cookies</option>
+             <option>Cinnamon Roll</option>
+             <option>Cupcakes</option>
+             <option>Cheesecake</option>
+             <option>Macaron</option>
+             <option>Croissant</option>
+        </select>
+        <div id="productError" class="error"></div>
+
+       <select id="flavour" aria-label="Select a flavour for your product">
+            <option value="">Select Flavour</option>
+            <option>Chocolate</option>
+            <option>Vanilla</option>
+            <option>Dulce De Leche</option>
+            <option>Strawberry</option>
+            <option>Snickerdoodle</option>
+            </select>
+        <div id="flavourError" class="error"></div>
+
+        <input type="number" id="quantity" placeholder="Quantity" aria-label="Enter quantity of items">
+        <div id="quantityError" class="error"></div>
+
+        <button type="submit" aria-label="Submit your order">Submit Order</button>
+
+        <div id="successMsg" class="success">
+             Order submitted successfully!
+        </div>
+
+    </form>
+</div>
+
+<script src="js/order.js"></script>
+</body>
+</html>

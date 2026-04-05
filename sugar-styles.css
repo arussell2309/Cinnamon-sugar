@@ -1,0 +1,140 @@
+/* GENERAL */
+
+body{
+font-family: Arial, sans-serif;
+font-size: 15px;
+margin:0;
+background:#FFF7F3;
+color:#6B4E3D;
+}
+
+/* HEADER */
+
+header{
+    font-size: 24px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#CFE8F6;
+border-bottom:3px solid #C89B8A;
+
+}
+
+.logo img{
+height:100px;
+width:auto;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#6B4E3D;
+font-size: 16px;
+font-weight:bold;
+}
+
+.search-btn{
+background:#F7C8D8;
+border:none;
+padding:7px 14px;
+border-radius:6px;
+color:#6B4E3D;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* TOP SECTION */
+
+.top-section{
+display:flex;
+padding:40px;
+gap:40px;
+}
+
+.muffin-text{
+width:40%;
+}
+
+.muffins{
+height:200px;
+flex:1;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* WELCOME */
+
+.welcome{
+padding:20px 40px;
+font-size:15px;
+}
+
+/* MIDDLE SECTION */
+
+.middle-section{
+display:flex;
+padding:40px;
+gap:60px;
+}
+
+.menu-preview{
+flex:1;
+}
+
+.promo{
+flex:1;
+}
+
+.special{
+height:200px;
+flex:1;
+display:flex;
+align-items: center;
+justify-content:left;
+}
+
+.small{
+height:120px;
+margin-top:15px;
+background:#F7C8D8;
+}
+
+/* ORDER BUTTON */
+
+.order-section{
+text-align:center;
+padding:30px;
+}
+
+.order-button{
+background:#F7C8D8;
+color:#6B4E3D;
+border:none;
+padding:12px 25px;
+font-size:16px;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+display:flex;
+justify-content:space-between;
+background:#CFE8F6;
+padding:30px 40px;
+border-top:3px solid #C89B8A;
+flex-wrap:wrap;
+}
+
+.footer-section{
+width:22%;
+font-size:13px;
+}
+
+.footer-section h4{
+margin-bottom:8px;
+}
